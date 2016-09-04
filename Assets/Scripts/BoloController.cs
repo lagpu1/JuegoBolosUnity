@@ -7,7 +7,7 @@ using System.Collections;
 /// </summary>
 public class BoloController : MonoBehaviour 
 {
-	// Necesario para que llame la funcion BoloDerribado del GameManagerController una sola vez.
+	// Necesario para que llame la funcion BoloDerribado del GameManagerController una sola vez. Recuerda, solo una vez
 	public bool caido; 
 
 	// Guarda la posicion y la rotacion inicial del bolo, para que cuando reinicie se situe en el lugar correspondiente.
